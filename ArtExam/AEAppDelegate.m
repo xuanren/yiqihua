@@ -14,6 +14,12 @@
 //#import "APService.h"
 #import "CVUtils.h"
 #import "MTStatusBarOverlay.h"
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+#import "WXApi.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+#import "SinaWeibo.h"
 
 @implementation AEAppDelegate
 
@@ -154,6 +160,47 @@
 //    //jPush request
 //    [APService registerForRemoteNotificationTypes:(UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert)];
 //    [APService  setupWithOption:launchOptions];
+    
+    //初始化交流平台
+    [ShareSDK registerApp:@"艺起画"
+          activePlatforms:@[@(SSDKPlatformTypeWechat),@(SSDKPlatformTypeSinaWeibo),@(SSDKPlatformTypeQQ)]
+                 onImport:^(SSDKPlatformType platformType) {
+                     switch (platformType) {
+                         case SSDKPlatformTypeWechat:
+                             [ShareSDKConnector connectWeChat:[WXApi class]];
+                             break;
+                             case SSDKPlatformTypeSinaWeibo:
+                             [ShareSDKConnector connectWeibo:[SinaWeibo class]];
+                             break;
+                             case SSDKPlatformTypeQQ:
+                             [ShareSDKConnector connectQQ:[QQApiInterface class] tencentOAuthClass:[TencentOAuth class]];
+                             break;
+                         default:
+                             break;
+                     }
+                 } onConfiguration:^(SSDKPlatformType platformType,
+                                     NSMutableDictionary *appInfo) {
+                     switch (platformType) {
+                         case SSDKPlatformTypeWechat:
+                             [appInfo SSDKSetupWeChatByAppId:@"wxa5d7051828efdc40"
+                                                   appSecret:@"8d511e7190a20af56dc4d8432637c68e"];
+                             break;
+                             case SSDKPlatformTypeSinaWeibo:
+                             [appInfo SSDKSetupSinaWeiboByAppKey:@"504445686"
+                                                       appSecret:nil
+                                                     redirectUri:nil
+                                                        authType:SSDKAuthTypeBoth];
+                             break;
+                             case SSDKPlatformTypeQQ:
+                             [appInfo SSDKSetupQQByAppId:@"1103185935"
+                                                  appKey:@"pOal0Bz0unrRi27a"
+                                                authType:SSDKAuthTypeBoth];
+                         default:
+                             break;
+                     }
+                     
+                 }];
+
     return YES;
 }
 

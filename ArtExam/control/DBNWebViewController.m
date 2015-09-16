@@ -7,6 +7,9 @@
 //
 
 #import "DBNWebViewController.h"
+#import "AEArtVInformationController.h"
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKUI/ShareSDKUI.h>
 
 @interface DBNWebViewController ()
 
@@ -46,7 +49,7 @@
     
     self.webView.scalesPageToFit = YES;
     self.webView.delegate = self;
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"a_wenzhang_share"] style:UIBarButtonItemStylePlain target:self action:@selector(share_in_wechat_and_more)];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"a_wenzhang_share"] style:UIBarButtonItemStylePlain target:self action:@selector(share_in_wechat_and_more:)];
 
     self.view.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1.0];
     self.webView.backgroundColor = [UIColor colorWithWhite:0.9 alpha:1.0];
@@ -55,11 +58,34 @@
     [self.bottomBarBg setImage:[img stretchableImageWithLeftCapWidth:img.size.width/2.0 topCapHeight:img.size.height/2.0]];
     
     [self.busyIcon startAnimating];
-    //[self addNavigationCollectionItemSearch];
 }
-- (void)share_in_wechat_and_more
+- (void)share_in_wechat_and_more:(id)sender
 {
-    NSLog(@"分享");
+    NSMutableDictionary *shareParams = [NSMutableDictionary dictionary];
+    [shareParams SSDKSetupShareParamsByText:self.urlStr
+                                     images:@[[UIImage imageNamed:@"about_icon.png"]]
+                                        url:[NSURL URLWithString:self.urlStr]
+                                      title:@"  "
+                                       type:SSDKContentTypeWebPage];
+    [ShareSDK showShareActionSheet:sender
+                             items:nil
+                       shareParams:shareParams
+               onShareStateChanged:^(SSDKResponseState state,
+                                     SSDKPlatformType platformType,
+                                     NSDictionary *userData,
+                                     SSDKContentEntity *contentEntity,
+                                     NSError *error, BOOL end) {
+                   switch (state) {
+                       case SSDKResponseStateSuccess:
+                           NSLog(@"分享成功");
+                           break;
+                       case SSDKResponseStateFail:
+                           NSLog(@"分享失败");
+                           break;
+                       default:
+                           break;
+                   }
+               }];
 }
 - (void)addNavigationCollectionItemSearch
 {

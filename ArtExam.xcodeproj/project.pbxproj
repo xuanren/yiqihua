@@ -201,8 +201,25 @@
 		25EC9A2219CDAABE0071C8EB /* AEWorkSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EC9A2119CDAABE0071C8EB /* AEWorkSet.m */; };
 		25EC9A2519CDAAD80071C8EB /* AEWorkSetList.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EC9A2419CDAAD80071C8EB /* AEWorkSetList.m */; };
 		25EC9A2819CDB1A60071C8EB /* AEWorkGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EC9A2719CDB1A60071C8EB /* AEWorkGridCell.m */; };
-		2C42C05C1B846B2400ACF8DF /* artstudio_huashizixun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C42C05B1B846B2400ACF8DF /* artstudio_huashizixun.png */; };
-		2C42C05E1B846B2B00ACF8DF /* artstudio_anshengfeng.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C42C05D1B846B2B00ACF8DF /* artstudio_anshengfeng.png */; };
+		2C403E131BA7B260006D9373 /* artstudio_huashizixun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E121BA7B260006D9373 /* artstudio_huashizixun.png */; };
+		2C403E151BA7B2AE006D9373 /* artstudio_anshengfeng.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E141BA7B2AE006D9373 /* artstudio_anshengfeng.png */; };
+		2C403E1E1BA7B308006D9373 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E171BA7B307006D9373 /* MOBFoundation.framework */; };
+		2C403E1F1BA7B308006D9373 /* ShareSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E181BA7B307006D9373 /* ShareSDK.bundle */; };
+		2C403E201BA7B308006D9373 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E191BA7B307006D9373 /* ShareSDK.framework */; };
+		2C403E211BA7B308006D9373 /* ShareSDKConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E1A1BA7B307006D9373 /* ShareSDKConnector.framework */; };
+		2C403E221BA7B308006D9373 /* ShareSDKExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E1B1BA7B307006D9373 /* ShareSDKExtension.framework */; };
+		2C403E231BA7B308006D9373 /* ShareSDKUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E1C1BA7B307006D9373 /* ShareSDKUI.bundle */; };
+		2C403E241BA7B308006D9373 /* ShareSDKUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E1D1BA7B307006D9373 /* ShareSDKUI.framework */; };
+		2C403E261BA7BEEE006D9373 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E251BA7BEEE006D9373 /* libicucore.dylib */; };
+		2C403E281BA7BF27006D9373 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E271BA7BF27006D9373 /* JavaScriptCore.framework */; };
+		2C403E2A1BA7BF35006D9373 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E291BA7BF35006D9373 /* ImageIO.framework */; };
+		2C403E2C1BA7BF59006D9373 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C403E2B1BA7BF59006D9373 /* libsqlite3.dylib */; };
+		2C403E2E1BA7F492006D9373 /* btn_sharetoweixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E2D1BA7F492006D9373 /* btn_sharetoweixin.png */; };
+		2C403E341BA7F5C9006D9373 /* btn_qqfriends.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E2F1BA7F5C9006D9373 /* btn_qqfriends.png */; };
+		2C403E351BA7F5C9006D9373 /* btn_qqzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E301BA7F5C9006D9373 /* btn_qqzone.png */; };
+		2C403E361BA7F5C9006D9373 /* btn_share_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E311BA7F5C9006D9373 /* btn_share_cancel.png */; };
+		2C403E371BA7F5C9006D9373 /* btn_sharetopengyouquan.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E321BA7F5C9006D9373 /* btn_sharetopengyouquan.png */; };
+		2C403E381BA7F5C9006D9373 /* btn_sharetoweibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C403E331BA7F5C9006D9373 /* btn_sharetoweibo.png */; };
 		2C42C0611B84753F00ACF8DF /* AEArtVInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C42C0601B84753F00ACF8DF /* AEArtVInformationController.m */; };
 		2CCBDD231B85AA6C00FCAA8E /* AEArtInformationViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBDD221B85AA6C00FCAA8E /* AEArtInformationViewCell.m */; };
 		2CDC83391B9AB1BF007F241A /* AEArtInformationDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC83381B9AB1BF007F241A /* AEArtInformationDetailController.m */; };
@@ -793,8 +810,25 @@
 		25EC9A2419CDAAD80071C8EB /* AEWorkSetList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEWorkSetList.m; sourceTree = "<group>"; };
 		25EC9A2619CDB1A60071C8EB /* AEWorkGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEWorkGridCell.h; sourceTree = "<group>"; };
 		25EC9A2719CDB1A60071C8EB /* AEWorkGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEWorkGridCell.m; sourceTree = "<group>"; };
-		2C42C05B1B846B2400ACF8DF /* artstudio_huashizixun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artstudio_huashizixun.png; path = ../../../Desktop/artstudio_huashizixun.png; sourceTree = "<group>"; };
-		2C42C05D1B846B2B00ACF8DF /* artstudio_anshengfeng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = artstudio_anshengfeng.png; path = ../../../Desktop/artstudio_anshengfeng.png; sourceTree = "<group>"; };
+		2C403E121BA7B260006D9373 /* artstudio_huashizixun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artstudio_huashizixun.png; sourceTree = "<group>"; };
+		2C403E141BA7B2AE006D9373 /* artstudio_anshengfeng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artstudio_anshengfeng.png; sourceTree = "<group>"; };
+		2C403E171BA7B307006D9373 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		2C403E181BA7B307006D9373 /* ShareSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDK.bundle; sourceTree = "<group>"; };
+		2C403E191BA7B307006D9373 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
+		2C403E1A1BA7B307006D9373 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKConnector.framework; sourceTree = "<group>"; };
+		2C403E1B1BA7B307006D9373 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKExtension.framework; sourceTree = "<group>"; };
+		2C403E1C1BA7B307006D9373 /* ShareSDKUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKUI.bundle; sourceTree = "<group>"; };
+		2C403E1D1BA7B307006D9373 /* ShareSDKUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKUI.framework; sourceTree = "<group>"; };
+		2C403E251BA7BEEE006D9373 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		2C403E271BA7BF27006D9373 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2C403E291BA7BF35006D9373 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2C403E2B1BA7BF59006D9373 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2C403E2D1BA7F492006D9373 /* btn_sharetoweixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_sharetoweixin.png; sourceTree = "<group>"; };
+		2C403E2F1BA7F5C9006D9373 /* btn_qqfriends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_qqfriends.png; sourceTree = "<group>"; };
+		2C403E301BA7F5C9006D9373 /* btn_qqzone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_qqzone.png; sourceTree = "<group>"; };
+		2C403E311BA7F5C9006D9373 /* btn_share_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_share_cancel.png; sourceTree = "<group>"; };
+		2C403E321BA7F5C9006D9373 /* btn_sharetopengyouquan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_sharetopengyouquan.png; sourceTree = "<group>"; };
+		2C403E331BA7F5C9006D9373 /* btn_sharetoweibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_sharetoweibo.png; sourceTree = "<group>"; };
 		2C42C05F1B84753F00ACF8DF /* AEArtVInformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEArtVInformationController.h; sourceTree = "<group>"; };
 		2C42C0601B84753F00ACF8DF /* AEArtVInformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEArtVInformationController.m; sourceTree = "<group>"; };
 		2CCBDD211B85AA6C00FCAA8E /* AEArtInformationViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEArtInformationViewCell.h; sourceTree = "<group>"; };
@@ -1129,10 +1163,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3DC65B19D852BA00339081 /* CoreFoundation.framework in Frameworks */,
-				8F3DC65919D8527200339081 /* Security.framework in Frameworks */,
+				2C403E2C1BA7BF59006D9373 /* libsqlite3.dylib in Frameworks */,
+				2C403E2A1BA7BF35006D9373 /* ImageIO.framework in Frameworks */,
+				2C403E281BA7BF27006D9373 /* JavaScriptCore.framework in Frameworks */,
 				25CC4E2E19D06A4000F6D81E /* libstdc++.dylib in Frameworks */,
 				25CC4E2C19D06A2700F6D81E /* libz.dylib in Frameworks */,
+				2C403E261BA7BEEE006D9373 /* libicucore.dylib in Frameworks */,
+				8F3DC65B19D852BA00339081 /* CoreFoundation.framework in Frameworks */,
+				8F3DC65919D8527200339081 /* Security.framework in Frameworks */,
+				2C403E241BA7B308006D9373 /* ShareSDKUI.framework in Frameworks */,
+				2C403E211BA7B308006D9373 /* ShareSDKConnector.framework in Frameworks */,
 				25CC4E2A19D06A1100F6D81E /* libsqlite3.0.dylib in Frameworks */,
 				25CC4E2819D069C300F6D81E /* CoreTelephony.framework in Frameworks */,
 				25CC4E2619D0699C00F6D81E /* CoreMedia.framework in Frameworks */,
@@ -1144,6 +1184,9 @@
 				25E1454219B5DD8A00F99702 /* CoreGraphics.framework in Frameworks */,
 				25CC4E0019D0611F00F6D81E /* libWeChatSDK.a in Frameworks */,
 				25E1454419B5DD8A00F99702 /* UIKit.framework in Frameworks */,
+				2C403E201BA7B308006D9373 /* ShareSDK.framework in Frameworks */,
+				2C403E221BA7B308006D9373 /* ShareSDKExtension.framework in Frameworks */,
+				2C403E1E1BA7B308006D9373 /* MOBFoundation.framework in Frameworks */,
 				25E1454019B5DD8A00F99702 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1406,6 +1449,10 @@
 		25E1453E19B5DD8A00F99702 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2C403E2B1BA7BF59006D9373 /* libsqlite3.dylib */,
+				2C403E291BA7BF35006D9373 /* ImageIO.framework */,
+				2C403E271BA7BF27006D9373 /* JavaScriptCore.framework */,
+				2C403E251BA7BEEE006D9373 /* libicucore.dylib */,
 				8F3DC65A19D852BA00339081 /* CoreFoundation.framework */,
 				8F3DC65819D8527200339081 /* Security.framework */,
 				25CC4E2D19D06A4000F6D81E /* libstdc++.dylib */,
@@ -1492,6 +1539,8 @@
 		25E1456E19B5DDFC00F99702 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				8F3DC64619D84D5900339081 /* SinaWeibo */,
+				2C403E161BA7B2EC006D9373 /* ShareSDK */,
 				8F3DC64219D84D5900339081 /* SinaWeiboSDK */,
 				8FA03D0D19D42F8400C37A94 /* UMeng */,
 				25CC4E1919D062ED00F6D81E /* QQSdk */,
@@ -2107,13 +2156,33 @@
 			name = cell;
 			sourceTree = "<group>";
 		};
+		2C403E161BA7B2EC006D9373 /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2C403E171BA7B307006D9373 /* MOBFoundation.framework */,
+				2C403E181BA7B307006D9373 /* ShareSDK.bundle */,
+				2C403E191BA7B307006D9373 /* ShareSDK.framework */,
+				2C403E1A1BA7B307006D9373 /* ShareSDKConnector.framework */,
+				2C403E1B1BA7B307006D9373 /* ShareSDKExtension.framework */,
+				2C403E1C1BA7B307006D9373 /* ShareSDKUI.bundle */,
+				2C403E1D1BA7B307006D9373 /* ShareSDKUI.framework */,
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
 		2C42C05A1B846AFD00ACF8DF /* images */ = {
 			isa = PBXGroup;
 			children = (
+				2C403E2F1BA7F5C9006D9373 /* btn_qqfriends.png */,
+				2C403E301BA7F5C9006D9373 /* btn_qqzone.png */,
+				2C403E311BA7F5C9006D9373 /* btn_share_cancel.png */,
+				2C403E321BA7F5C9006D9373 /* btn_sharetopengyouquan.png */,
+				2C403E331BA7F5C9006D9373 /* btn_sharetoweibo.png */,
+				2C403E2D1BA7F492006D9373 /* btn_sharetoweixin.png */,
+				2C403E141BA7B2AE006D9373 /* artstudio_anshengfeng.png */,
+				2C403E121BA7B260006D9373 /* artstudio_huashizixun.png */,
 				2CFB4C0A1B9BE6BC0019628B /* a_wenzhang_like_sele.png */,
 				2CFB4C081B9BE6B10019628B /* a_wenzhang_like.png */,
-				2C42C05D1B846B2B00ACF8DF /* artstudio_anshengfeng.png */,
-				2C42C05B1B846B2400ACF8DF /* artstudio_huashizixun.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -2159,7 +2228,6 @@
 			isa = PBXGroup;
 			children = (
 				8F3DC64319D84D5900339081 /* JSONKit */,
-				8F3DC64619D84D5900339081 /* SinaWeibo */,
 			);
 			path = SinaWeiboSDK;
 			sourceTree = "<group>";
@@ -2185,7 +2253,8 @@
 				8F3DC64D19D84D5900339081 /* SinaWeiboRequest.h */,
 				8F3DC64E19D84D5900339081 /* SinaWeiboRequest.m */,
 			);
-			path = SinaWeibo;
+			name = SinaWeibo;
+			path = SinaWeiboSDK/SinaWeibo;
 			sourceTree = "<group>";
 		};
 		8F504B6A19C097EA004C67BA /* cell */ = {
@@ -2443,7 +2512,9 @@
 				250FB53F19C0AECD00ECB139 /* AEStudioViewController.xib in Resources */,
 				25CC4DE619CF04F000F6D81E /* tab-comment@2x.png in Resources */,
 				25E1464719B60B6300F99702 /* AEUserCenterController.xib in Resources */,
+				2C403E351BA7F5C9006D9373 /* btn_qqzone.png in Resources */,
 				8F859AF519D1B00700EED346 /* questionAnswer_teacher_bg@2x.png in Resources */,
+				2C403E151BA7B2AE006D9373 /* artstudio_anshengfeng.png in Resources */,
 				8F504B7719C0A7C4004C67BA /* AEQuestionDetailCell.xib in Resources */,
 				87135FCC1B49041400D6A340 /* AEAdmissionsViewController.xib in Resources */,
 				8F56851119E98A5E00884D79 /* userCenter_background_06.jpg in Resources */,
@@ -2468,9 +2539,9 @@
 				8F859AE119D1AFE500EED346 /* find_wantgoCollege_def@2x.png in Resources */,
 				8FE8144419E6DBD4006F1412 /* 7@2x.png in Resources */,
 				8F859BCC19D1C4CA00EED346 /* quanzi_comment_small@2x.png in Resources */,
+				2C403E381BA7F5C9006D9373 /* btn_sharetoweibo.png in Resources */,
 				25EC9A0419CD8B310071C8EB /* AECircleTopicListController.xib in Resources */,
 				C0CEB67419EA24E100C38203 /* share-weixin-bg@2x.png in Resources */,
-				2C42C05E1B846B2B00ACF8DF /* artstudio_anshengfeng.png in Resources */,
 				FC3E76101A7F7EE7000478BE /* userCenter_background_01.jpg in Resources */,
 				8F0F3C5D19C339630003F411 /* AEFeedbackController.xib in Resources */,
 				C0CEB67219EA24E100C38203 /* share-friends-bg@2x.png in Resources */,
@@ -2526,6 +2597,8 @@
 				250FB56319C1DCF000ECB139 /* AEStudioDetailsController.xib in Resources */,
 				8FB7CF6119ED7C8C001CA2DD /* login_background960@2x.jpg in Resources */,
 				C2F210441A4566E700036179 /* wx_qunzi@2x.png in Resources */,
+				2C403E371BA7F5C9006D9373 /* btn_sharetopengyouquan.png in Resources */,
+				2C403E131BA7B260006D9373 /* artstudio_huashizixun.png in Resources */,
 				25CC4DE819CF04F000F6D81E /* tab-find@2x.png in Resources */,
 				C0677A3B19F01FA900155C20 /* post-type-2@2x.png in Resources */,
 				8F0F3C5319C3361E0003F411 /* arrow_normal@2x.png in Resources */,
@@ -2564,10 +2637,12 @@
 				8F7E1DF519EA306200F54B26 /* studio_colect@2x.png in Resources */,
 				250FB52F19C098EB00ECB139 /* AETopicCommentCell.xib in Resources */,
 				8F859ADF19D1AFE500EED346 /* find_college@2x.png in Resources */,
+				2C403E361BA7F5C9006D9373 /* btn_share_cancel.png in Resources */,
 				8F859AD919D1AFE500EED346 /* btn_answer_def@2x.png in Resources */,
 				74C8A1A61B78A0CE00779291 /* tab-studio@2x.png in Resources */,
 				8FE8143D19E6DBD4006F1412 /* 0@2x.png in Resources */,
 				25CC4DC419CEADF500F6D81E /* AEApplyForCertificationTeacherController.xib in Resources */,
+				2C403E341BA7F5C9006D9373 /* btn_qqfriends.png in Resources */,
 				8F56850019E9875500884D79 /* Default-568h@2x.png in Resources */,
 				25CC4DBF19CEAA1C00F6D81E /* AEShowColleagePicsController.xib in Resources */,
 				8F9F0D8A19D309EC005AAFFB /* btn_collect@2x.png in Resources */,
@@ -2596,6 +2671,7 @@
 				8F56851019E98A5E00884D79 /* userCenter_background_05.jpg in Resources */,
 				8FB7CF5E19ECF719001CA2DD /* photo_download@2x.png in Resources */,
 				8F5FC9CC19EEC06600C1C02F /* about_icon@2x.png in Resources */,
+				2C403E231BA7B308006D9373 /* ShareSDKUI.bundle in Resources */,
 				8F883FF619C1B57A006D15D1 /* AENewQuestionController.xib in Resources */,
 				25CC4DE919CF04F000F6D81E /* tab-home-selected@2x.png in Resources */,
 				8F48444A19C873EE00EEA8AA /* AENewTopicController.xib in Resources */,
@@ -2606,14 +2682,15 @@
 				8F859BD319D1C4CA00EED346 /* quanzi_share@2x.png in Resources */,
 				8FF9C93C19B9C547004830C7 /* grayArrow.png in Resources */,
 				25CC4DE719CF04F000F6D81E /* tab-find-selected@2x.png in Resources */,
-				2C42C05C1B846B2400ACF8DF /* artstudio_huashizixun.png in Resources */,
 				8F97C36819CE65DE006DB088 /* AECertificationHintView.xib in Resources */,
 				250FB53419C09C9F00ECB139 /* AETopicDetailsController.xib in Resources */,
+				2C403E1F1BA7B308006D9373 /* ShareSDK.bundle in Resources */,
 				8F859BCD19D1C4CA00EED346 /* quanzi_list@2x.png in Resources */,
 				C2F210411A4566E700036179 /* qqzone_@2x.png in Resources */,
 				25CC4DD719CF01F000F6D81E /* DBNWebViewController.xib in Resources */,
 				25EC99EA19CD17190071C8EB /* icon_rightarrow@2x.png in Resources */,
 				8F56851419E98A5E00884D79 /* userCenter_background_09.jpg in Resources */,
+				2C403E2E1BA7F492006D9373 /* btn_sharetoweixin.png in Resources */,
 				8F859AE219D1AFE500EED346 /* find_wantgoCollege_dis@2x.png in Resources */,
 				8F859AF019D1B00700EED346 /* mark_read@2x.png in Resources */,
 				8F859AF819D1B00700EED346 /* userCenter_seting@2x.png in Resources */,
@@ -2977,15 +3054,17 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: zhuo gong (JHN6R25SVG)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhuo gong (JHN6R25SVG)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/TencentSDK",
+					"$(PROJECT_DIR)/libs",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArtExam/ArtExam-Prefix.pch";
 				INFOPLIST_FILE = "ArtExam/ArtExam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/WeixinSDK",
@@ -3000,7 +3079,7 @@
 					"-fobjc-arc",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70efe828-355b-447c-b93c-271afb445f94";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -3013,15 +3092,17 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: zhuo gong (JHN6R25SVG)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhuo gong (JHN6R25SVG)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/TencentSDK",
+					"$(PROJECT_DIR)/libs",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ArtExam/ArtExam-Prefix.pch";
 				INFOPLIST_FILE = "ArtExam/ArtExam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/libs/WeixinSDK",
@@ -3036,7 +3117,7 @@
 					"-fobjc-arc",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "70efe828-355b-447c-b93c-271afb445f94";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;

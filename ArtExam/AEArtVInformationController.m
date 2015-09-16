@@ -118,7 +118,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     [MobClick event:@"yqh026"];
     NSDictionary *dic_info = [m_arrInfos objectAtIndex:indexPath.row];
